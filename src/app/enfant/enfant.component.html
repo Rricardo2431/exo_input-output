@@ -1,0 +1,4 @@
+<div *ngFor="let person of objArray">
+<p>je m'appelle {{person.name}} j'ai {{person.age}} et mon hobby est {{person.hobby}}</p>
+<button (click)="supprimer(person.id)">efface</button>
+</div>
